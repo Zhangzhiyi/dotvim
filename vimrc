@@ -426,7 +426,7 @@ noremap! <silent> <F10> <c-o>:SCCompileRun<cr>
 
 "config for neocomplcache{{{
 " use neocomplcache & clang_complete
-
+inoremap <c-return> <c-x><c-]>
 let g:neocomplcache_force_overwrite_completefunc=1
 
 " add clang_complete option
